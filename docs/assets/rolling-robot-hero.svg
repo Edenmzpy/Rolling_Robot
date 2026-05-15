@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Rolling Robot</title>
+  <desc id="desc">Technical illustration of a pneumatic tendon coupled rolling robot with a dodecahedral body.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071827"/>
+      <stop offset="0.55" stop-color="#0B2B3E"/>
+      <stop offset="1" stop-color="#10243B"/>
+    </linearGradient>
+    <linearGradient id="tube" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56E0D1"/>
+      <stop offset="1" stop-color="#1F8EA8"/>
+    </linearGradient>
+    <linearGradient id="tubeHot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB45C"/>
+      <stop offset="1" stop-color="#FF6B57"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#35D6C7" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#35D6C7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#8CC8D3" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="440" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="440" rx="24" fill="url(#grid)"/>
+  <circle cx="910" cy="210" r="260" fill="url(#glow)"/>
+  <path d="M0 358 C240 318 410 430 640 376 S1010 312 1200 356 V440 H0Z" fill="#07131F" opacity="0.72"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#F6FBFF">
+    <text x="74" y="92" font-size="17" font-weight="650" letter-spacing="3.5" fill="#64DDD1">SOFT ROBOTICS · EMBEDDED CONTROL</text>
+    <text x="70" y="172" font-size="64" font-weight="760" letter-spacing="-2">ROLLING</text>
+    <text x="70" y="238" font-size="64" font-weight="760" letter-spacing="-2">ROBOT</text>
+    <text x="74" y="284" font-size="21" fill="#B6CAD8">Untethered pneumatic–tendon locomotion</text>
+    <text x="74" y="321" font-size="16" fill="#86A5B7">12 soft legs · dodecahedral body · STM32 + FreeRTOS</text>
+    <g transform="translate(74 354)">
+      <rect width="228" height="40" rx="20" fill="#173D4B" stroke="#46CDBF" stroke-opacity="0.55"/>
+      <text x="114" y="26" font-size="13" font-weight="650" letter-spacing="1.4" text-anchor="middle" fill="#D7FFFA">SCUT · B.ENG CAPSTONE</text>
+    </g>
+  </g>
+
+  <g transform="translate(894 216)" filter="url(#shadow)">
+    <!-- Soft legs: schematic illustration, not a CAD rendering. -->
+    <g stroke-linecap="round" stroke-width="22">
+      <path d="M-122 -94 L-181 -146" stroke="url(#tube)"/>
+      <path d="M0 -132 L0 -201" stroke="url(#tube)"/>
+      <path d="M122 -94 L181 -146" stroke="url(#tubeHot)"/>
+      <path d="M148 4 L224 4" stroke="url(#tube)"/>
+      <path d="M113 104 L170 160" stroke="url(#tube)"/>
+      <path d="M0 140 L0 211" stroke="url(#tubeHot)"/>
+      <path d="M-113 104 L-170 160" stroke="url(#tube)"/>
+      <path d="M-148 4 L-224 4" stroke="url(#tubeHot)"/>
+    </g>
+    <g fill="#E8FFFF" opacity="0.82">
+      <circle cx="-184" cy="-149" r="13"/><circle cx="0" cy="-205" r="13"/><circle cx="184" cy="-149" r="13"/>
+      <circle cx="228" cy="4" r="13"/><circle cx="173" cy="163" r="13"/><circle cx="0" cy="215" r="13"/>
+      <circle cx="-173" cy="163" r="13"/><circle cx="-228" cy="4" r="13"/>
+    </g>
+
+    <g fill="#0B2637" fill-opacity="0.82" stroke="#92FFF3" stroke-width="3">
+      <polygon points="0,-132 78,-102 124,-31 102,61 40,126 -40,126 -102,61 -124,-31 -78,-102"/>
+      <polygon points="0,-91 66,-47 52,31 0,73 -52,31 -66,-47" fill="#12394A"/>
+      <path d="M0,-132 L0,-91 M78,-102 L66,-47 M124,-31 L52,31 M102,61 L0,73 M40,126 L0,73 M-40,126 L0,73 M-102,61 L-52,31 M-124,-31 L-66,-47 M-78,-102 L-66,-47" fill="none"/>
+      <path d="M0,-91 L-78,-102 M0,-91 L78,-102 M66,-47 L124,-31 M52,31 L102,61 M-52,31 L-102,61 M-66,-47 L-124,-31" fill="none" opacity="0.72"/>
+    </g>
+    <circle cx="0" cy="-5" r="23" fill="#FF8A5B" stroke="#FFD2AE" stroke-width="4"/>
+    <path d="M-10 -5 H10 M0 -15 V5" stroke="#10243B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="1100" y="414" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#95B5C6">SCHEMATIC ILLUSTRATION</text>
+</svg>

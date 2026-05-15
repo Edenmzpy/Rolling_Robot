@@ -1,0 +1,42 @@
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local assistant/tooling state
+.claude/
+.codex/
+
+# Keil MDK user settings
+*.uvguix.*
+*.uvoptx
+
+# Keil MDK build products
+Objects/
+Listings/
+*.axf
+*.crf
+*.d
+*.dep
+*.hex
+*.htm
+*.lnp
+*.lst
+*.map
+*.o
+*.sct
+*.Bak
+
+# Keep the curated, prebuilt firmware images
+!firmware/*.hex
+
+# STM32CubeMX local backups
+*.ioc.bak
+
+# Temporary files
+~$*

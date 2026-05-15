@@ -1,0 +1,16 @@
+* text=auto
+
+# Source and documentation use stable LF endings across platforms.
+*.c text eol=lf
+*.h text eol=lf
+*.s text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.hex binary
+
+# Mechanical design assets are binary files.
+*.SLDASM binary
+*.SLDPRT binary
+*.STL binary
+*.3MF binary
+*.3mf binary
