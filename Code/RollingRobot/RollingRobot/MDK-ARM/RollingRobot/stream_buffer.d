@@ -1,0 +1,14 @@
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+rollingrobot\stream_buffer.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stdint.h
+rollingrobot\stream_buffer.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\string.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+rollingrobot\stream_buffer.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stddef.h
+rollingrobot\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+rollingrobot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

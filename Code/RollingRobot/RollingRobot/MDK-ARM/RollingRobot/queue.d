@@ -1,0 +1,15 @@
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+rollingrobot\queue.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stdlib.h
+rollingrobot\queue.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\string.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+rollingrobot\queue.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stddef.h
+rollingrobot\queue.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stdint.h
+rollingrobot\queue.o: ../Core/Inc/FreeRTOSConfig.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+rollingrobot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

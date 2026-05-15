@@ -1,0 +1,12 @@
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+rollingrobot\port.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stddef.h
+rollingrobot\port.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stdint.h
+rollingrobot\port.o: ../Core/Inc/FreeRTOSConfig.h
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+rollingrobot\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

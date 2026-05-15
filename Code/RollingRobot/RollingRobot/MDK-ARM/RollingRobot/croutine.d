@@ -1,0 +1,14 @@
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+rollingrobot\croutine.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stddef.h
+rollingrobot\croutine.o: D:\Keil_v5\APP\ARM\ARMCC\Bin\..\include\stdint.h
+rollingrobot\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+rollingrobot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
