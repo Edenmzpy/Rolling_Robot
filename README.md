@@ -119,7 +119,7 @@ This is an archived research prototype rather than a plug-and-play kit. Reproduc
 
 ## Author and acknowledgment
 
-Developed by **Yufeng Zeng (曾宇烽)** as an undergraduate capstone project at the School of Mechanical and Automotive Engineering, South China University of Technology.
+Developed by **Yufeng Zeng (曾宇烽)** as an undergraduate capstone project at the School of Robotics, South China University of Technology.
 
 Advisor: **Prof. Yunquan Li (李云泉)**
 
